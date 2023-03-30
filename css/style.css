@@ -1,0 +1,147 @@
+.filtro{
+    filter: opacity(25%);
+}
+.next img {
+    position: absolute;
+    width: 30px;
+    height: 60px;
+    right: 20px;
+    top: 200px;
+    
+}
+.next img:hover{
+    cursor: pointer;
+}
+
+.back img{
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    width: 30px;
+    height: 60px;
+    transform: rotate(180deg);
+    filter: opacity(25%);
+}
+
+.back img:hover{
+    cursor:pointer
+}
+
+
+.bg01{
+position: relative;
+background: black url(../img/bg-01.jpg) center center no-repeat;
+background-size: cover;
+height: 656px;
+
+
+}
+
+.texto{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.575);
+    top: 100px;
+    left: 200px;
+    padding: 10px;
+
+
+}
+
+/* Background-2*/
+
+.bg-02{
+    display: none;
+    position: relative;
+    background: black url(../img/bg-02.jpg) center center no-repeat;
+    background-size: cover;
+    height: 656px;}
+
+    .back02 img{
+        position: absolute;
+        top: 200px;
+        left: 20px;
+        width: 30px;
+        height: 60px;
+        transform: rotate(180deg);
+    }
+
+    .next02 img {
+        position: absolute;
+        width: 30px;
+        height: 60px;
+        right: 20px;
+        top: 200px;
+    }
+    .back02 img:hover{
+        cursor:pointer
+    }
+    .next02 img:hover{
+        cursor: pointer;
+    }
+
+ /* Background-03   */
+    .bg-03{
+        display: none;
+        position: relative;
+        background: black url(../img/bg-03.png) center center no-repeat;
+        background-size: cover;
+        height: 656px;}
+
+    
+      .back03 img{
+            position: absolute;
+            top: 200px;
+            left: 20px;
+            width: 30px;
+            height: 60px;
+            transform: rotate(180deg);
+     }
+     .next03 img {
+        position: absolute;
+        width: 30px;
+        height: 60px;
+        right: 20px;
+        top: 200px;
+    }
+    .back03 img:hover{
+        cursor:pointer
+    }
+    .next03 img:hover{
+        cursor: pointer;
+    }
+
+
+    /* Background-04   */
+    .bg-04{
+        display: none;
+        position: relative;
+        background: black url(../img/bg-04.jpg) center center no-repeat;
+        background-size: cover;
+        height: 656px;}
+
+    
+      .back04 img{
+            position: absolute;
+            top: 200px;
+            left: 20px;
+            width: 30px;
+            height: 60px;
+            transform: rotate(180deg);
+     }
+     .next04 img {
+        position: absolute;
+        width: 30px;
+        height: 60px;
+        right: 20px;
+        top: 200px;
+        filter: opacity(60%);
+    }
+
+    .back04 img:hover{
+        cursor:pointer
+    }
+    .next04 img:hover{
+        cursor: pointer;
+    }
